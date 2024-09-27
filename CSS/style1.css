@@ -1,7 +1,15 @@
 *{
-    background-color: black;
     text-align: center;
     color: rgb(0, 255, 0);
+}
+html {
+    height: 100%;
+    background: black;
+    background-image:url("../Images/enl-bg-desktop-ascii.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
 }
 .button {
     padding:16px 32px;
