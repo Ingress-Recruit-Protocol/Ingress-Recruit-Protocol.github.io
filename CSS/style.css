@@ -3,9 +3,9 @@
     margin: 0;
     text-align: center;
     align-items: center;
-    align-content: center;
+    align-content: stretch;
     width: auto;
-    /*max-width: auto;*/
+    max-width: auto;
 }
 
 .col {
@@ -15,23 +15,27 @@
     z-index: 1;
     top: 0;
     overflow-x: hidden;
-    padding: 2px;
+    padding: 10px;
   }
   
-  /* Control the left side */
 .left {
     float: left;
     width: 50%;
     position: relative;
-    padding-right: -50%;
-    height: 25%;
+    padding-right: 50%;
+    padding-bottom: 75px;
 }
   
-  /* Control the right side */
 .right {
     float: right;
     width: 50%;
     position: relative;
+    padding-left: 50%;
+    padding-top: 100px;
+}
+
+.media {
+    padding: 0;
 }
 
 html {
@@ -59,6 +63,8 @@ body {
 main {
     overflow-y: auto;
     flex: auto;
+    justify-content: center;
+    padding-top: 50%;
 }
 
 p {
@@ -106,4 +112,9 @@ p {
 .button2:hover {
     color: #0099FF;
     background-color: #004C7F;
+}
+
+#faction {
+    width: 100%;
+    vertical-align: middle;
 }
