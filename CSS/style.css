@@ -23,7 +23,11 @@
     width: 50%;
     position: relative;
     padding-right: 50%;
+    padding-top: 25%;
     padding-bottom: 75px;
+   /* font-size: 16px;
+    font-family: monospace;
+    color: #FFFFFF; */
 }
   
 .right {
@@ -32,6 +36,18 @@
     position: relative;
     padding-left: 50%;
     padding-top: 100px;
+    /* font-size: 16px;
+    font-family: monospace;
+    color: #FFFFFF; */
+}
+
+p {
+    font-size: 16px;
+    font-family: monospace;
+    color: #FFFFFF;
+    background-color: #7F7F7F;
+    opacity: 75%;
+    border-radius: 12px;
 }
 
 .media {
@@ -64,12 +80,6 @@ main {
     overflow-y: auto;
     flex: auto;
     justify-content: center;
-    padding-top: 50%;
-}
-
-p {
-    font-size: 24px;
-    font-family: monospace;
 }
 
 .button1 {
